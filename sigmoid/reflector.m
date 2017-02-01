@@ -3,11 +3,11 @@ clear
 clc
 
 n=1;
-load data
+load data131.mat
 nbrOfNodes=10;
 nbrOfEpochs=1000;
 
-pos=[zeros(1,length(pos))' pos];
+pdp=tof;
 sizePos=size(pos);
 sizePdp=size(pdp);
 
